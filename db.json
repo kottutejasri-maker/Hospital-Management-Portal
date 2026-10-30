@@ -1,0 +1,60 @@
+{
+  "doctors": [
+    {
+      "name": "Dr.bhavani",
+      "specialization": "Cardiology",
+      "experience": 10,
+      "phone": "9008624242",
+      "email": "bhavani@gmail.com",
+      "available": true,
+      "id": 1
+    },
+    {
+      "name": "Dr.lekhana",
+      "specialization": "Neurology",
+      "experience": 6,
+      "phone": "8765432189",
+      "email": "lekhana@gmail.com",
+      "available": true,
+      "id": 2
+    }
+  ],
+  "patients": [
+    {
+      "name": "pavani",
+      "age": 25,
+      "gender": "Female",
+      "phone": "9876766733",
+      "email": "pavani@gmail.com",
+      "id": 1
+    },
+    {
+      "name": "ganga",
+      "age": 21,
+      "gender": "Female",
+      "phone": "2647890543",
+      "email": "ganga@gmail.com",
+      "id": 2
+    }
+  ],
+  "appointments": [
+    {
+      "patientId": "1",
+      "doctorId": "1",
+      "date": "2026-10-31",
+      "time": "10:00",
+      "reason": "heart checkup",
+      "status": "Cancelled",
+      "id": 1
+    },
+    {
+      "patientId": "2",
+      "doctorId": "2",
+      "date": "2026-11-01",
+      "time": "11:00",
+      "reason": "body ccheckup",
+      "status": "Booked",
+      "id": 2
+    }
+  ]
+}

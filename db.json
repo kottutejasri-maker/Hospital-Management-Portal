@@ -52,7 +52,7 @@
       "doctorId": "2",
       "date": "2026-11-01",
       "time": "11:00",
-      "reason": "body ccheckup",
+      "reason": "body checkup",
       "status": "Booked",
       "id": 2
     }

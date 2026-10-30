@@ -2,7 +2,7 @@ import { useEffect, useMemo, useState } from "react";
 
 import { BrowserRouter, Navigate, Route, Routes, useLocation, useNavigate } from "react-router-dom";
 
-import { addItem, deleteItem, getItem, getItems, updateItem } from "./api.js";
+import { addItem, deleteItem, getItem, getItems, updateItem } from "./services/api.js";
 
 
 
